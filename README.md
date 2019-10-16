@@ -10,7 +10,7 @@ Steps to make it work:
   1) acquire a spotify api key and add to config.yaml
   2) add username to play_scraper.py
   3) run spotify_auth.py and follow instructions to authorize app
-  4) run data_scraper.py to get most recent spotify data
+  4) run play_scraper.py to get most recent spotify data
   5) open a python interpreter, create a DataManager object, and call methods like "get_most_played_tracks" to retrieve data
   6) call "get_track_data_for_playlists" in analyzer.py to get sentiment analysis for tracks in a playlist
 
